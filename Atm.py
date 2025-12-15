@@ -77,7 +77,8 @@ while chance < 3:
             print("Invalid Choice!")
 
     else:
-        print("Wrong PIN! Try Again")
+        chance+=1
+        print("Wrong PIN! Attempt Left :",3 - chance)
 
 if chance == 3:
     s="\U0001F600"
